@@ -37,6 +37,7 @@ ul li a:hover{
 
 }
 
+
 .kity{
   height: 10px;
   width: 20px;
@@ -68,7 +69,6 @@ ul li a:hover{
 }
 
 #listas{
-  height: 15vh;
   text-align: center;
   width: 100%;
   background: none;
@@ -77,7 +77,6 @@ ul li a:hover{
 
 .socbt .click{
   position: inline-block;
-  display: block;
   color: #666;
   font-size: 30px;
   height: 60px;
@@ -191,7 +190,7 @@ html,body {
 #footer {
 	background-color: #000;
 	position: relative;
-	height: 100px;
+	height: 200px;
 	margin-top: 0px;
 	
 }
@@ -240,6 +239,19 @@ html,body {
 
 }
 
+/*footer*/
+
+
+
+.footer2 ul li p{
+  color: white;
+  position: relative;
+  bottom: 100px;
+}
+
+
+
+
 
 
 
@@ -258,6 +270,7 @@ html,body {
   }
 
 
+
   .socbt .click{
     position: inline-block;
     color: #666;
@@ -270,13 +283,17 @@ html,body {
     margin: 0 5px;
     cursor: pointer;
     transition: .5s;
+    display: inline;
   }
 
-
+.socbt{
+  float: none;
+  margin:auto;
+  display:inline-block;
+}
 
 
   .wilkai {
-	display:block;
 	width: 100%;
 	padding-bottom: 30px;
       }
@@ -325,12 +342,15 @@ html,body {
   cursor: pointer;
   transition: 0.5s;
 }
+
+
 .socbt {
   float: left;
 }
 	.wrapper {
   width: 1000px;
   height: auto;
+  margin: 0 auto;
 
 }
 .img-info {
