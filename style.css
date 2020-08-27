@@ -1,0 +1,301 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+nav{
+  width: 100%;
+  height:10px;
+
+}
+
+nav ul {
+  float:left;
+}
+
+nav ul li {
+  float:left;
+  list-style: none;
+}
+
+nav ul li a{
+  font-family:arial;
+  color:#222;
+  font-size: 15px;
+  padding: 24px 14px;
+  display:block;
+  list-style:none;
+  text-decoration: none;;
+}
+
+ul li a:hover{
+  color:red;
+  text-decoration: none;
+  
+
+}
+
+
+
+/*Social buttons options*/
+#listas{
+  display:flex;
+  height: 15vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.socbt{
+  display: flex;
+}
+.socbt .click{
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: .5s;
+  top: 460px;
+  right:250px;
+
+}
+.socbt .click:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(.9);
+  z-index: -1;
+  transition: .5s;
+}
+.socbt .click:nth-child(1):before{
+  background: #4267B2;
+}
+.socbt .click:nth-child(2):before{
+  background: #1DA1F2;
+}
+.socbt .click:nth-child(3):before{
+  background: #E1306C;
+}
+.socbt .click:nth-child(4):before{
+  background: #2867B2;
+}
+.socbt .click:nth-child(5):before{
+  background: #ff0000;
+}
+.socbt .click:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+.socbt .click:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #4267B2;
+}
+.socbt .click:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #1DA1F2;
+}
+.socbt .click:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #E1306C;
+}
+.socbt .click:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #2867B2;
+}
+.socbt .click:nth-child(5):hover:before{
+  box-shadow: 0 0 15px #ff0000;
+}
+.socbt .click:nth-child(1):hover{
+  color: #456cba;
+  box-shadow: 0 0 15px #4267B2;
+  text-shadow: 0 0 15px #4267B2;
+}
+.socbt .click:nth-child(2):hover{
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1DA1F2;
+  text-shadow: 0 0 15px #1DA1F2;
+}
+.socbt .click:nth-child(3):hover{
+  color: #e23670;
+  box-shadow: 0 0 15px #E1306C;
+  text-shadow: 0 0 15px #E1306C;
+}
+.socbt .click:nth-child(4):hover{
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867B2;
+  text-shadow: 0 0 15px #2867B2;
+}
+.socbt .click:nth-child(5):hover{
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
+}
+/* ul li:hover{
+  color: #ffa502;
+  box-shadow: 0 0 15px #d35400;
+  text-shadow: 0 0 15px #d35400;
+} */
+
+
+
+
+
+html,body {
+	height: 100%;
+}
+
+
+
+#container {
+	min-height: 100%;
+}
+
+#main{
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+#footer {
+	background-color: #000;
+	position: relative;
+	height: 100px;
+	margin-top: 0px;
+	
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.wilkai {
+	width: 100%;
+  position: static;
+
+}
+
+.wilkai:hover{
+  opacity:0.7;
+}
+
+
+
+
+
+.img-info {
+	width: 100%;
+}
+
+.img-info h2 {
+	padding:30px 30px 20px;
+	font-family: arial;
+	font-size: 50px;
+	color: #111;
+	line-height: 44px;
+}
+
+.img-info p {
+	padding: 0px 30px 20px;
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 24px;
+}
+
+.me {
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px){
+
+
+  .socbt .click{
+    position: relative;
+    display: block;
+    color: #666;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #171515;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+
+
+
+  .wilkai {
+	display:block;
+	width: 100%;
+	padding-bottom: 30px;
+      }
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+.img-info h2 {
+	padding:20px 0px 0px;
+}
+
+.img-info p {
+	padding: 20px 0px 0px;
+
+}
+.me {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+
+}
+
+@media only screen and (min-width: 1000px){
+
+	.wrapper {
+	width: 1000px;
+
+}
+.img-info {
+	width: 50%;
+	float: right;
+}
+.me {
+	padding-top: 0px;
+	width: 300px;
+	float: left;
+
+
+}
+.img-info h2 {
+	padding:20px 0px 0px 30px;
+}
+
+.img-info p {
+	padding: 20px 0px 0px 30px;
+
+}
+
+
+}
