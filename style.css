@@ -60,6 +60,19 @@ ul li a:hover{
   color:red;
 }
 
+.menuoptions .menuli .menua {
+  background-color:black;
+  color:white;
+  opacity: 0.7  ;
+  
+}
+
+.menuoptions .menuli .menua:hover {
+  opacity: 1.0;
+
+  
+}
+
 
 
 /*Social buttons options*/
@@ -243,11 +256,19 @@ html,body {
 
 
 
-.footer2 ul li p{
-  color: white;
-  position: relative;
-  bottom: 100px;
+.footer2{
+  color:white;
+  padding-top: 140px;
+  display:flex;
+  justify-content:center;
+  
+  
 }
+
+.footerul {
+  list-style:none;
+}
+  
 
 
 
@@ -374,4 +395,11 @@ html,body {
 }
 
 
+}
+
+@media screen and (max-width:900px) {
+  .socbt {
+    display:flex;
+    list-style: none;
+  }
 }
