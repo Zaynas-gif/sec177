@@ -37,22 +37,46 @@ ul li a:hover{
 
 }
 
+.kity{
+  height: 10px;
+  width: 20px;
+  padding-bottom: 0px;
+  padding-top: 15px;
+}
+
+
+
+.kityimg{
+  height: 35px;
+  width: 35px;
+  float:left;
+  margin-left: -10px;
+ 
+}
+
+
+.kityimg:hover{
+  color:red;
+}
+
 
 
 /*Social buttons options*/
+
+.socbt {
+  margin:auto;
+}
+
 #listas{
-  display:flex;
   height: 15vh;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  width: 100%;
   background: none;
+  margin: 0 auto;
 }
-.socbt{
-  display: flex;
-}
+
 .socbt .click{
-  position: relative;
+  position: inline-block;
   display: block;
   color: #666;
   font-size: 30px;
@@ -64,12 +88,10 @@ ul li a:hover{
   margin: 0 5px;
   cursor: pointer;
   transition: .5s;
-  top: 460px;
-  right:250px;
+ 
 
 }
 .socbt .click:before{
-  position: absolute;
   content: '';
   top: 0;
   left: 0;
@@ -175,7 +197,8 @@ html,body {
 }
 
 .wrapper {
-	width: 100%;
+  width: 100%;
+  height:auto;
 }
 
 .wilkai {
@@ -226,10 +249,17 @@ html,body {
 
 @media only screen and (min-width: 768px){
 
+  #listas{
+    height: 15vh;
+    text-align: center;
+    background:none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
 
   .socbt .click{
-    position: relative;
-    display: block;
+    position: inline-block;
     color: #666;
     font-size: 30px;
     height: 60px;
@@ -253,7 +283,8 @@ html,body {
 
 .wrapper {
 	width: 600px;
-	margin: 0 auto;
+  margin: 0 auto;
+  overflow-y:auto;
 }
 .img-info h2 {
 	padding:20px 0px 0px;
@@ -273,8 +304,33 @@ html,body {
 
 @media only screen and (min-width: 1000px){
 
+#listas {
+  height: 15vh;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  background:none;
+}
+
+.socbt .click{
+  display: inline-block;
+  color: #666;
+  font-size:30px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius:50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.socbt {
+  float: left;
+}
 	.wrapper {
-	width: 1000px;
+  width: 1000px;
+  height: auto;
 
 }
 .img-info {
