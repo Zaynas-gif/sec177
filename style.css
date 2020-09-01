@@ -434,6 +434,7 @@ body{
   height: 100%;
   padding: 20px 100px;
   top: 100px;
+  right: 200px;
 }
 
 .contactus::after{
@@ -537,12 +538,11 @@ h2:after{
 @media screen and (max-width:880px){
   .contact-box{
       grid-template-columns: 1fr;
+      position: relative;
+      left: 90px;
   }
   .left{
       height: 200px;
   }
-  .contactus {
-    margin: auto;
-    padding: auto;
-  }
+
 }
