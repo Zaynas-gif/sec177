@@ -82,11 +82,11 @@ ul li a:hover{
 .wrapper .img-info .welcome::after{
     content:'';
     position: absolute;
-    left: 50%;
+    left: 52%;
     bottom: 0px;
     transform: translateX(-50%);
-    height: 4px;
-    width: 200px;
+    height: 5px;
+    width: 210px;
     border-radius: 2px;
     background-color:#2ecc71;
 }
@@ -277,7 +277,7 @@ html,body {
   color:white;
   padding-top: 140px;
   display:flex;
-  justify-content:center;
+  
   
   
 }
@@ -286,6 +286,8 @@ html,body {
   list-style:none;
 }
   @media only screen and (min-width: 768px){
+
+
 
   #listas{
     height: 15vh;
@@ -345,6 +347,9 @@ html,body {
 
 @media only screen and (min-width: 1000px){
 
+
+}
+
 #listas {
   height: 15vh;
   width: 1000px;
@@ -401,6 +406,7 @@ html,body {
 }
 
 @media screen and (max-width:900px) {
+  
   .socbt {
     display:flex;
     list-style: none;
